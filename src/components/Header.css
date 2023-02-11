@@ -1,7 +1,10 @@
 .header {
+  color: #F7E401;
+  background-color: #013988;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
 }
 
 .header__logo-container {

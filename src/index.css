@@ -3,9 +3,13 @@
   line-height: 1.5;
   font-weight: 400;
 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
   /* color-scheme: light dark; */
-  color: #F7E401;
-  background-color: #013988;
+  background-color: #F7E401;
+  color: #013988;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
