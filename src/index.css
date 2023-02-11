@@ -3,10 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
   /* color-scheme: light dark; */
   background-color: #F7E401;
   color: #013988;
@@ -18,3 +14,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
