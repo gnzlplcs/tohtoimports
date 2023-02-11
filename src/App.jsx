@@ -1,17 +1,14 @@
-import { useState } from 'react'
-import logoImg from './assets/logo003-7.png'
-import './App.css'
+import Form from "./components/Form";
+import logoImg from "./assets/logo003-7.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-
-      <h1>Tohto Imports</h1>
-      <img src={logoImg} alt="Tohto Lightning main image" width="400px"/>
+      <h1>Página en construcción</h1>
+      <img src={logoImg} alt="Tohto Lightning main image" />
+      <Form />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
